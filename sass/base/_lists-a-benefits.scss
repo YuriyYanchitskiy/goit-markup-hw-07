@@ -1,0 +1,60 @@
+
+/* Переваги */
+
+.lists-a__plate::before,
+.lists-a__clock::before,
+.lists-a__diagram::before,
+.lists-a__astronaut::before {
+    content: '';
+    display: block;
+    height: 120px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--other-background-color);
+}
+
+.lists-a__plate::before {
+    background-image: url(../imeges/hw/original.svg/plate1.svg);
+}
+
+.lists-a__clock::before {
+    background-image: url(../imeges/hw/original.svg/clock2.svg);
+}
+
+.lists-a__diagram::before {
+    background-image: url(../imeges/hw/original.svg/diagram3.svg);
+}
+
+.lists-a__astronaut::before {
+    background-image: url(../imeges/hw/original.svg/astronaut4.svg);
+}
+
+.lists-a__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: 270px;
+}
+
+.lists-a__paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 270px;
+}
+
+.description {
+    padding-top: 94px;
+    align-items: center;
+    display: flex;
+}

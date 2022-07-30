@@ -1,0 +1,81 @@
+/*посилання*/
+.menu__studio,
+.menu__portfolio,
+.menu__contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+    display: inline-block;
+
+    transition: color var(--transform-1);
+}
+
+.menu__studio--current,
+.menu__portfolio--current {
+    color: var(--accent-color1);
+
+}
+
+.blue,
+.menu__studio:focus,
+.menu__portfolio:focus,
+.menu__contacts:focus,
+.contact__mail:focus,
+.contact__tel:focus,
+.menu__studio:hover,
+.menu__portfolio:hover,
+.menu__contacts:hover {
+    color: var(--accent-color1);
+
+}
+
+.menu__studio,
+.menu__portfolio,
+.menu__contacts,
+.contact__mail,
+.contact__tel {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* Підкреслення під поточною сторінкою */
+.menu__studio,
+.menu__portfolio {
+    position: relative;
+}
+
+.menu__studio--is-active,
+.menu__portfolio--is-active {
+    color: var(--blue-background);
+}
+
+.menu__studio--is-active::after,
+.menu__portfolio--is-active::after {
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    left: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--blue-background);
+}
+
+.list li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.contact li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.list {
+    display: flex;
+    margin: 0px 0px 0px 93px;
+    padding: 0;
+}
+
