@@ -15,6 +15,38 @@
     align-items: center;
 
     transition: fill, background-color var(--transform-1);
+
+        &:hover,
+        &:hover,
+        &:hover,
+        &:hover {
+            background-color: var(--blue-background);
+    
+        }
+    
+        &:focus,
+        &:focus,
+        &:focus,
+        &:focus {
+            background-color: var(--blue-background);
+    
+        }
+    
+        &:hover .svg-instagram,
+        &:hover .svg-twitter,
+        &:hover .svg-facebook,
+        &:hover .svg-linkedin {
+            fill: #FFFFFF;
+    
+        }
+    
+        &:focus .svg-instagram,
+        &:focus .svg-twitter,
+        &:focus .svg-facebook,
+        &:focus .svg-linkedin {
+            fill: #FFFFFF;
+    
+        }
 }
 
 .svg-instagram,
@@ -25,34 +57,3 @@
     fill: #AFB1B8;
 }
 
-.instagram:hover,
-.twitter:hover,
-.facebook:hover,
-.linkedin:hover {
-    background-color: var(--blue-background);
-
-}
-
-.instagram:focus,
-.twitter:focus,
-.facebook:focus,
-.linkedin:focus {
-    background-color: var(--blue-background);
-
-}
-
-.instagram:hover .svg-instagram,
-.twitter:hover .svg-twitter,
-.facebook:hover .svg-facebook,
-.linkedin:hover .svg-linkedin {
-    fill: #FFFFFF;
-
-}
-
-.instagram:focus .svg-instagram,
-.twitter:focus .svg-twitter,
-.facebook:focus .svg-facebook,
-.linkedin:focus .svg-linkedin {
-    fill: #FFFFFF;
-
-}
