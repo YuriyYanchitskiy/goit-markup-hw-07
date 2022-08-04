@@ -5,27 +5,16 @@
 @import './utils/visually-hidden';
 
 
-// BASE
-@import './base/lists-a-benefits';
-@import './base/card-flex-box';
-@import './base/lists-b-doing';
-@import './base/ourteam';
-@import './base/customers';
-@import './base/lists-f-join';
-
-
 // COMPONENTS
-@import './components/buttons-hero';
-@import './components/link-header';
-@import './components/contact-header';
-@import './components/social-network-ourteam';
-@import './components/button-footer';
+@import './components/header';
+@import './components/hero';
+@import './components/description';
+@import './components/lists-b-doing';
+@import './components/ourteam';
+@import './components/customers';
+@import './components/footer';
 @import './components/button-portfolio';
+@import './components/card-flex-box';
+@import './components/modal';
+@import './components/mobile-menu';
 
-
-
-// LAYOUT
-@import './layout/header';
-@import './layout/hero';
-@import './layout/footer';
-@import './layout/modal';

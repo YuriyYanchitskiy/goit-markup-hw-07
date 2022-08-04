@@ -7,6 +7,15 @@
     padding-left: 0;
     justify-content: center;
 
+@media screen and (max-width: 767px) {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        justify-content: flex-start;
+    }
+
+
+
         &__all,
         &__web,
         &__applications,
@@ -52,6 +61,18 @@
         &__item:not(:last-child) {
             margin-right: 8px;
         }
+}
+
+@media screen and (max-width: 767px) {
+    .buttons-portfolio__item:not(:nth-last-child(-n+2)) {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 767px){
+ .buttons-portfolio__item:not(:last-child) {
+    margin-right: 8px;
+    }
 }
 
 .options {
